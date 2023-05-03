@@ -17,6 +17,7 @@
 
                     <p class="card-text">@pizza.Description</p>
                     <h5>&euro; @pizza.Price</h5>
+                    <a href="@Url.Action("Details", "Pizza", new {id = pizza.Id})">Mostra Dettagli</a>
                 </div>
             </div>
         </div>
